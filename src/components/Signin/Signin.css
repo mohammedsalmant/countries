@@ -1,0 +1,86 @@
+.sign-main{
+    display: flex;
+    width: 98vw;
+    height:97vh;
+}
+.sign-left{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+
+.sign-head{
+    margin-left: -63px;  
+}
+.sign-head p a{
+    text-decoration: none;
+}
+.sign-form input{
+    padding: 10px;
+    padding-right: 83px;
+    margin-top: 4%;
+    border: 3px solid black;
+}
+#submit{
+    color: white;
+    background-color:#333333;
+    text-align: center;
+    padding: 4% 41%;
+}
+#submit a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.sign-form label{
+    margin-top: 4%;
+    text-decoration: none;
+}
+.sign-form button{
+    margin-top: 4%;
+}
+.sign-form button{
+    text-decoration:none;
+}
+.sign-other{
+    width: 50%;
+    margin-left: 24%;
+}
+.sign-other-icon{
+    /* margin-left: 10%; */
+}
+.sign-other-icon i{
+    padding-right:10%;
+}
+
+.sign-right{
+    flex: 1;
+    /* background-color: aqua; */
+}
+.sign-right img{
+    width: 450px;
+    height: 450px;
+    margin-top:16% ;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .sign-right{
+        display: none;
+    }
+    .sign-other {
+        width: 61%;
+        margin-left: 9%;
+    }
+    .sign-other-icon {
+        margin-left: -3%;
+    }
+    .sign-other-icon i {
+        padding: 0% 8%;
+    }
+}

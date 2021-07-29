@@ -1,0 +1,82 @@
+.homepage-main{
+    display: flex;
+    width:98vw;
+    height:100vh;
+    flex-direction: column;
+}
+.homepage-nav{
+    display: flex;
+    flex: 1;
+}
+.homepage-nav-left{
+    font-size: 24px;
+    padding-left:20px;
+    margin-left:24%;
+}
+.homepage-nav-right{
+    display: flex;
+    position:absolute;
+    right:23%;
+}
+.homepage-nav-right h6{
+    padding-right: 50px;
+    margin-top: 34px;
+    font-size: 18px;
+}
+.homepage-countries{
+    flex: 1;
+    display:grid;
+    grid-gap:5px;
+    grid-template-columns: auto auto;
+    width: 50%;
+    position: relative;
+    justify-content: center;
+    margin-left:25%;
+}
+.countries-list{
+    height: 90%;
+    width: 95%;
+    display: flex;
+    border: 2px solid black;
+}
+.countries-flag img{
+    height:60px;
+    width:60px;
+    padding:5px
+}
+.countries-right{
+    margin-top:4px;
+}
+.homepage-nav-right-res{
+    display: none;
+}
+.social{
+    width: 50%;
+    margin-left: 24%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    .homepage-nav-left {    
+        margin-left: 1%;
+    }
+    .homepage-countries{
+      grid-template-columns: auto;
+      margin-left: 4%;
+      width: 94%;
+    }
+    .homepage-nav-right{
+        display: none;
+    }
+    .homepage-nav-right-res{
+        display: block;
+        position: absolute;
+        right: 14%;
+        top: 7%;
+    }
+    .homepage-nav-right-res button{
+        background-color: transparent;
+        border: 0px;
+    }
+  }
